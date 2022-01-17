@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+    <link rel="stylesheet" href="forms_apps.css">
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="/tacos">
+      <button type="button">Do not click here</button>
+      <p>
+        <label for="username" class="tag">Enter Your User Name : </label>
+        <input
+          id="username"
+          type="text"
+          placeholder="Username"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password" class="tag">Enter Your Password : </label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="Birth Date" class="tag">Enter your birthdate : </label>
+        <input
+          id="birthdate"
+          type="date"
+          placeholder="Birth Date"
+          name="Date"
+        />
+      </p>
+      <input type="color" placeholder="Select Color" /> <br />
+      <!-- This button submits the form -->
+      <button class="year">Submit!!</button>
+      <!-- Does this one. -->
+      <input type="submit" value="Click Me" />
+    </form>
+    <hr />
+    <!-- Outside the form button doesnot work. -->
+    <button>This is not inside form.</button>
+    <!-- Here Hijacking code for search. -->
+    <section>
+    <h2>Search Hijaking</h2>
+    <p>
+    <!-- This is for google Search. -->
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="Search Here" required/>
+      <button id="google">Search google</button>
+    </form>
+    <br />
+    <!-- This is for youtube Search. -->
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" placeholder="Search Here" required/>
+      <button>Search Youtube</button>
+    </form>
+    <input type="password">
+    </p>
+  </section>
+    <h5>More inputs!!</h5>
+    <form action="/Birds">
+        <!-- This is for checkbox. -->
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree"> I do not agree anything.</label>
+            <p>
+                <!-- this is for radio button. -->
+                <label for="xxl">XXL</label>
+                <input type="radio" name="size" id="XXL" value="XXL">
+                <label for="XL">XL</label>
+                <input type="radio" name="size" id="Xl" value="XL">
+                <label for="L">L</label>
+                <input type="radio" name="size" id="L" value="L"><br>
+            </p>
+            <p>
+                <!-- this is for top down menu. -->
+                <label for="meal">Please Select your Country.</label>
+                <select name="meal" id="meal">
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </p>
+            <p>
+                <Label for="Hight">Enter Your Hight : </Label>
+                <input type="range" name="Hight_level" id="Hight" 
+                        min="1" max="100" step="10" value="50">
+            </p>
+            <p>
+                <label for="requests">Any Suggesions!!</label>
+                <br>
+                <textarea id="requests" rows="7" name="requests" placeholder="Type simething Here"></textarea>
+            </p>
+            <button>Submit</button>
+        </form>
+        <h3>Validation Demo</h3>
+        <form action="/animals">
+            <label for="first">Enter First Name : </label>
+            <input type="text" name="first" id="first" required>
+            <p>
+                <label for="username">Username : </label>
+                <input type="text" name="username" id="username" minlength="4" maxlength="20" required>
+            </p>
+            <p>
+                <label for="email"> Email : </label>
+                <input type="email" required>
+            </p>
+            <button>Submit</button>
+        </form>
+  </body>
+</html>

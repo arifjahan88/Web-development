@@ -1,0 +1,25 @@
+h2 {
+  color: orange;
+  background-color: green;
+}
+
+button {
+  color: red;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: red underline wavy;
+  letter-spacing: 10px;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: fantasy;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1cm;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

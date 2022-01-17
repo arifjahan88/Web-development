@@ -1,0 +1,48 @@
+* {
+  color: #264653;
+  background-color: #d8e2dc;
+}
+#google {
+  background-color: black;
+}
+button {
+  font-style: italic;
+  background-color: aqua;
+}
+body {
+  color: #03045e;
+}
+h1,
+h2,
+h3 {
+  text-decoration: underline wavy;
+}
+.tag {
+  color: black;
+  background-color: red;
+}
+#population {
+  color: #d8e2dc;
+  background-color: black;
+}
+p a {
+  color: red;
+}
+ul li {
+  color: green;
+}
+ul > li {
+  color: black;
+}
+section input[type="password"] {
+  color: #ff01ff;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
+button:active {
+  background-color: bisque;
+  color: black;
+  font-size: large;
+}

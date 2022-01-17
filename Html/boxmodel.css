@@ -1,0 +1,28 @@
+h1 {
+  color: brown;
+  /* background-color: blueviolet; */
+  width: fit-content;
+  border-width: 2px;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+/* .box1 {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+} */
+#box1 {
+  background-color: cadetblue;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+}
+#box2 {
+  background-color: coral;
+}
+#box3 {
+  background-color: cornflowerblue;
+}
